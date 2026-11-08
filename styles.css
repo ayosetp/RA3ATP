@@ -1,0 +1,76 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    color: black;
+    padding: 40px 20px;
+}
+
+
+header {
+    max-width: 1000px;
+    margin: 0 auto 30px auto;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #1a1a1a;
+}
+
+.principal {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.lista-ejercicios {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ejercicio {
+    background-color: #DDDDDD;
+    border: 1px solid #cacaca;
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    align-items: center; 
+    gap: 24px;        
+    transition: box-shadow 0.2s ease;
+}
+
+.ejercicio:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.10);
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #335577; 
+    color: #fff;
+    text-decoration: none;   
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 6px;
+
+    white-space: nowrap;      
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+}
+
+.btn:hover {
+    filter: brightness(130%)
+}
+
+.ejercicio h2 {
+    font-size: 1.05rem;
+    font-weight: normal;    
+    color: #1a1a1a;
+    line-height: 1.4;
+}
